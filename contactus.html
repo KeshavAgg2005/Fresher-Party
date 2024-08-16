@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #333;
+        }
+
+        .alert-container {
+            position: fixed;
+            bottom: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            transition: bottom 0.3s ease-in-out;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .alert-content {
+            padding: 10px;
+        }
+
+        .alert-button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Alert Example</title>
+</head>
+<body>
+    <button id="showAlert">Show Alert</button>
+    <div class="alert-container" id="alertContainer">
+        <div class="alert-content">
+            <p>This is an alert created using JavaScript and styled with CSS.</p>
+            <button class="alert-button" id="closeAlert">Close</button>
+        </div>
+    </div>
+    <script>
+        const showAlertButton = document.getElementById('showAlert');
+        const alertContainer = document.getElementById('alertContainer');
+        const closeAlertButton = document.getElementById('closeAlert');
+
+        showAlertButton.addEventListener('click', () => {
+            alertContainer.style.bottom = '50%';
+        });
+
+        closeAlertButton.addEventListener('click', () => {
+            alertContainer.style.bottom = '-100%';
+        });
+    </script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# Fresher-Party
+# Fresher-s-Party-2023

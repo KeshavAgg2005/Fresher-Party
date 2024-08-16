@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+93ea66be4658881d34d12c68ea2c03959eac759d refs/remotes/origin/Shashankpantiitbhilai-patch-1
+86fa96b28ea2c824d734b6fa97f83a2c5685378e refs/remotes/origin/addevent
+053c8567ed9d49aba5b553dc118812cd405b01fb refs/remotes/origin/develop
+18278914abd99c34f62f2b76144da16f6c452bd6 refs/remotes/origin/main
+c4c9a9093e30d49901ffeaaeed89c660d6082735 refs/remotes/origin/master
+18278914abd99c34f62f2b76144da16f6c452bd6 refs/remotes/origin/shashank_events
+2edd4b64b6a7a69a05121059eea2c53737cd4a93 refs/remotes/origin/shashankpant_adding_date
+91e6e10f3e6debf939b34f5cf005e79cd29fe613 refs/remotes/origin/shashankpant_events
